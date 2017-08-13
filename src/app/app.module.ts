@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule, // <-- import the FormsModule before binding with [(ngModel)]
     HttpModule
   ],
   providers: [],
